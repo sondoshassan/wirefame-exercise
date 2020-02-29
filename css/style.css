@@ -6,6 +6,8 @@ header {
     background-color: #5a5a5a;
     position: relative;
     height: 100px;
+    width: 100%;
+    margin: auto;
 }
 img {
     position: absolute;
@@ -23,11 +25,12 @@ nav li{
 }
 
 main {
-    height: 1000px;
+    height: 1335px;
     position: relative;
+    width: 100%;
+    margin: auto;
 }
 div img{
-    display: inline-block;
     margin: 492px 0 0 129px;
 }
 img:last-child {
@@ -38,26 +41,25 @@ img:nth-child(2) {
 }
 div {
     position: relative;
+    clear: both;
 }
 h1 {
-    margin: 907px 0 0 632px;
+    top: 907px;
+    left: 633px;
     text-transform: capitalize;
     position: absolute;
     font-family: sans-serif;
     font-size: 28px;
 }
 p {
-    margin: 944px 0 0 633px;
+    top: 944px;
+    left: 633px;
     overflow: scroll;
     height: 296px;
     width: 450px;
     line-height: 24px;
     position: absolute;
 }
-/* #image {
-    position: absolute;
-    margin: 905px 0 0 130px;
-} */
 
 div h1+img {
     position: absolute;
@@ -72,7 +74,8 @@ button {
     border: 0.5px solid;
     border-radius: 4px;
     height: 51px;
-    margin: 1254px 0 0 638px;
+    top: 1259px;
+    left: 638px;
     background-color: black;
     color: white;
 }
@@ -82,7 +85,9 @@ button:hover {
     box-shadow: 0 0 10px #90C1FC, 0 0 40px #90C1FC, 0 0 80px #90C1FC;
 }
 footer {
+    width: 100%;
+    margin: auto;
     background-color: #5a5a5a;
-    margin: 345px 0 0 0;
+
     height: 106px;
 }
